@@ -17,7 +17,7 @@ public class AlumnoController {
 	private IAlumnoService alumnoService;
 	
 	@GetMapping("/")
-    public String inicio() {
+    public String Index() {
 		return "Index";
 	}
 	
